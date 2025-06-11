@@ -1,0 +1,35 @@
+{
+  "project" : {
+    "id" : "alfred-code",
+    "name" : "alfred-code",
+    "folder" : "/"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "tokenizerEngine" : "default"
+    },
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 248888,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 248889,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ ],
+    "patterns" : [ "(привет* [привет]|привеет:привет|приивеет:привет|приветик|приветики|при вед:привед|здравствуй|здравствуй*|здрасьте|здрасти|high:хэй|эй:хэй|хай|хэлло*|халоу|хэлоу|здаров|шалом|hello|здарова|хелло|здаровеньки|здоровеньки|здрасте|салют|hi|приветствую|~добрый ~день|~добрый ~вечер|доброго времени суток|хеллоу|п р и в е т|здраствуй*|приве:привет|прив:привет|хаюшки)" ]
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+}
